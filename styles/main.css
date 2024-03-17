@@ -4,8 +4,7 @@ body#about img{
 body{
     font-size: 18px;
     display: grid;
-    grid-template-areas:"head" "head"
-                        "nav" "nav"
+    grid-template-areas:"head" "nav"
                         "main" "main"
                         "foot" "foot";
     grid-template-columns: 1fr 4fr;
@@ -16,6 +15,9 @@ line-height: 1.2;
 }
 p{
     max-width: 50em;
+}
+body > *{
+    padding-left: 4rem;
 }
 body > header{
     grid-area: head;
@@ -43,7 +45,4 @@ header, footer{
 }
 header h1, footer h1{
     margin: 0;
-}
-body > *{
-    padding-left: 4rem;
 }
