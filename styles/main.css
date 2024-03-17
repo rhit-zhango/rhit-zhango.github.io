@@ -11,6 +11,7 @@ h1, h2, h3{
 body#about img{height: 15em;}
 p{
     max-width: 50em;
+    font-family: sans-serif;
 }
 body{
     font-size: 18px;
