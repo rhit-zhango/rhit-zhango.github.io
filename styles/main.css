@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Manuale:ital,wght@0,300..800;1,300..800&display=swap');
+
 :root{
     --vertical-space:2rem;
     --horizontal-space: 3rem;
 }
 h1, h2, h3{
     line-height: 1.2;
+    font-family: "Honk", system-ui;
 }
 body#about img{height: 15em;}
 p{
