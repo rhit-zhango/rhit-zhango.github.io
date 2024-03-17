@@ -2,6 +2,13 @@
     --vertical-space:2rem;
     --horizontal-space: 3rem;
 }
+h1, h2, h3{
+    line-height: 1.2;
+}
+body#about img{height: 15em;}
+p{
+    max-width: 50em;
+}
 body{
     font-size: 18px;
     display: grid;
@@ -20,13 +27,6 @@ body{
                             "foot foot";
         grid-template-rows: auto 1fr auto;
     }
-}
-h1, h2, h3{
-    line-height: 1.2;
-}
-body#about img{height: 15em;}
-p{
-    max-width: 50em;
 }
 body > *{
     padding-left: var(--horizontal-space);
