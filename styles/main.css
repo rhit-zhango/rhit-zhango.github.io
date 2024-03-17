@@ -61,3 +61,15 @@ header, footer{
 header h1, footer h1{
     margin: 0;
 }
+
+body#portfolio ul#portfolioItems{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    list-style-type: none;
+    padding: 0;
+}
+body#portfolio ul#portfolioItems li{
+    flex-basis: 48%;
+    padding-right: 2%;
+}
