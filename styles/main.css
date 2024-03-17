@@ -4,8 +4,8 @@ body#about img{
 body{
     font-size: 18px;
     display: grid;
-    grid-template-areas: "head" "head"
-                         "nav" "main"
+    grid-template-areas: "head" "nav"
+                         "main" "main"
                          "foot" "foot";
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto 1fr auto;
