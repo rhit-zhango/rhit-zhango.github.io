@@ -1,3 +1,7 @@
+:root{
+    --vertical-space:2rem;
+    --horizontal-space: 3rem;
+}
 body#about img{
     height: 15em;
 }
@@ -27,7 +31,8 @@ p{
     max-width: 50em;
 }
 body > *{
-    padding-left: 4rem;
+    padding-left: var(--horizontal-space);
+    padding-right: var(--horizontal-space);
 }
 body > header{
     grid-area: head;
@@ -50,8 +55,8 @@ body > footer{
     grid-area: foot;
 }
 header, footer{
-    padding-top: 1.33rem;
-    padding-bottom: 1.33rem;
+    padding-top: var(--vertical-space);
+    padding-bottom: var(--vertical-space);
 }
 header h1, footer h1{
     margin: 0;
