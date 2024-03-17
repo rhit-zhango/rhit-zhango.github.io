@@ -1,0 +1,40 @@
+body#about img{
+    height: 15em;
+}
+body{
+    font-size: 18px;
+    display: grid;
+    grid-template-areas: "head" "head"
+                         "nav" "nav"
+                         "foot" "foot";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr auto;
+}
+h1, h2, h3{
+line-height: 1.2;
+}
+p{
+    max-width: 50em;
+}
+body > header{
+    grid-area: head;
+}
+body > nav{
+    grid-area: "nav";
+}
+body > main{
+    grid-area: main;
+}
+body > footer{
+    grid-area: foot;
+}
+header, footer{
+    padding-top: 1.33rem;
+    padding-bottom: 1.33rem;
+}
+header h1, footer h1{
+    margin: 0;
+}
+body > *{
+    padding-left: 4rem;
+}
