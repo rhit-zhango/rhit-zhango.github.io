@@ -3,7 +3,7 @@
     --horizontal-space: 3rem;
 }
 body#about img{
-    height: 15em;
+    /* height: 15em; */
 }
 body{
     font-size: 18px;
@@ -69,7 +69,12 @@ body#portfolio ul#portfolioItems{
     list-style-type: none;
     padding: 0;
 }
-body#portfolio ul#portfolioItems li{
-    flex-basis: 48%;
-    padding-right: 2%;
+@media screen and (min-width: 25em) {
+    body#portfolio ul#portfolioItems li{
+        flex-basis: 48%;
+        padding-right: 2%;
+    }
+}
+body#portfolio ul#portfolioItems li img{
+    max-width: 100%;
 }
