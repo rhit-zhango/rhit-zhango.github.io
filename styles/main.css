@@ -36,6 +36,7 @@ body{
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto auto 1fr auto;
     font-family: sans-serif;
+    color: var(--body-color);
 }
 
 @media screen and (min-width: 25em) {
