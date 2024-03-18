@@ -23,7 +23,7 @@ body{
     color: var(--body-color);
 }
 main{
-    background-color: white, 0.7;
+    background-color: rgba(white, 0.7);
 }
 h1, h2, h3{
     line-height: 1.2;
