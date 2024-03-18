@@ -55,7 +55,6 @@ p{
                             "nav main"
                             "foot foot";
         grid-template-rows: auto 1fr auto;
-        padding-right: 10%;
         padding-left: 0%;
     }
 }
