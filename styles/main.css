@@ -3,15 +3,28 @@
 :root{
     --vertical-space:2rem;
     --horizontal-space: 3rem;
+
+    --light-color:#8226BF;
+    --body-color:#472DA6;
+    /* --heading-color:#2E338C; */
+    --contrast-color:#121D59;
 }
 h1, h2, h3{
     line-height: 1.2;
     font-family: "Honk", system-ui;
 }
-body#about img{height: 15em;}
+a{
+    color: var(--body-color);
+    text-decoration-color: var(--light-color);
+}
+body#about img{
+    height: 15em;
+    display: inline;
+    float: left;
+    margin-right: var(--horizontal-space);
+}
 p{
     max-width: 50em;
-    font-family: sans-serif;
 }
 body{
     font-size: 18px;
@@ -22,6 +35,7 @@ body{
                         "foot foot";
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto auto 1fr auto;
+    font-family: sans-serif;
 }
 
 @media screen and (min-width: 25em) {
