@@ -5,26 +5,9 @@
     --horizontal-space: 3rem;
 
     --light-color:#8226BF;
-    --body-color:#472DA6;
+    --body-color:#121D59;
     /* --heading-color:#2E338C; */
-    --contrast-color:#121D59;
-}
-h1, h2, h3{
-    line-height: 1.2;
-    font-family: "Honk", system-ui;
-}
-a{
-    color: var(--body-color);
-    text-decoration-color: var(--light-color);
-}
-body#about img{
-    height: 15em;
-    display: inline;
-    float: left;
-    margin-right: var(--horizontal-space);
-}
-p{
-    max-width: 50em;
+    --contrast-color:#472DA6;
 }
 body{
     font-size: 18px;
@@ -36,7 +19,28 @@ body{
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto auto 1fr auto;
     font-family: sans-serif;
+    background-image: linear-gradient(67.5deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%,rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%,rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%,rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%,rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%,rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%,rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%),linear-gradient(22.5deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%,rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%,rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%,rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%,rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%,rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%,rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%),linear-gradient(195deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%,rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%,rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%,rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%,rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%,rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%,rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%),linear-gradient(240deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%,rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%,rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%,rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%,rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%,rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%,rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%),linear-gradient(240deg, rgb(41,151,34),rgb(240, 31, 57)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
     color: var(--body-color);
+}
+h1, h2, h3{
+    line-height: 1.2;
+    font-family: "Honk", system-ui;
+}
+a{
+    color: var(--body-color);
+    text-decoration-color: var(--light-color);
+}
+a:hover{
+    color: var(--light-color);
+}
+body#about img{
+    height: 15em;
+    display: inline;
+    float: left;
+    margin-right: var(--horizontal-space);
+}
+p{
+    max-width: 50em;
 }
 
 @media screen and (min-width: 25em) {
